@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <div 
-      className="min-h-screen bg-cover bg-center bg-no-repeat relative pb-16"
+      className="min-h-screen bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: `url(/${backgroundImage})` }}
       data-testid="home-page"
     >
@@ -114,11 +114,11 @@ export default function Home() {
         {!loading && weather && (
           <div className="px-4 pt-4 flex justify-center" data-testid="weather-widget-container">
             <div
-              className="w-64 rounded-2xl border border-white/30 bg-gradient-to-br from-white/25 to-white/10 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.4)] p-4"
+              className="w-80 rounded-2xl border border-white/30 bg-gradient-to-br from-white/15 to-white/10 backdrop-blur-x1 shadow-[0_8px_32px_rgba(0,0,0,0.4)] p-4"
               data-testid="weather-widget"
             >
-              <div className="flex items-center justify-between mb-3">
-                <div className="flex items-center gap-3">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
                   {(() => {
                     const WeatherIcon = getWeatherIcon(weather.weather[0].id);
                     return <WeatherIcon className="w-10 h-10 text-yellow-300 drop-shadow-lg" />;
@@ -159,10 +159,10 @@ export default function Home() {
         )}
 
         {/* Main Content - Optimized spacing and typography */}
-        <main className="flex-1 flex flex-col justify-center items-center px-6 text-center pt-2 pb-8">
+        <main className="flex flex-col justify-center items-center px-6 text-center pt-16 pb-8">
           {/* Main Slogan - Enhanced typography and spacing */}
           <h2 
-            className="text-2xl md:text-3xl font-bold leading-tight mb-4 max-w-md"
+            className="text-3xl md:text-3xl font-bold leading-tight mb-4 max-w-md"
             style={{ 
               textShadow: '2px 2px 0px black, 3px 3px 6px rgba(0,0,0,0.9)',
             }}

@@ -18,3 +18,220 @@ Note that the development build is not optimized.
 To create a production build, use yarn build.
 
 webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Home.jsx
+Syntax error: Expected corresponding JSX closing tag for <div>. (200:8) (200:8)
+ERROR in ./src/pages/Home.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspaces/Mobile2026/frontend/src/pages/Home.jsx: Expected corresponding JSX closing tag for <div>. (200:8)
+
+  198 |             </button>
+  199 |           </div>
+> 200 |         </main>
+      |         ^
+  201 |       </div>
+  202 |     </div>
+  203 |   );
+    at constructor (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+    at FlowParserMixin.raise (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+    at FlowParserMixin.jsxParseElementAt (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:4756:16)
+    at FlowParserMixin.jsxParseElementAt (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+    at FlowParserMixin.jsxParseElement (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+    at FlowParserMixin.parseExprAtom (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+    at FlowParserMixin.parseExprSubscripts (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+    at FlowParserMixin.parseUpdate (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+    at FlowParserMixin.parseMaybeUnary (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+    at FlowParserMixin.parseExprOps (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+    at FlowParserMixin.parseMaybeConditional (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+    at FlowParserMixin.parseMaybeAssign (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+    at /workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:3527:39
+    at FlowParserMixin.tryParse (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:6932:20)
+    at FlowParserMixin.parseMaybeAssign (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:3527:18)
+    at /workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+    at FlowParserMixin.allowInAnd (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:3620:18)
+    at FlowParserMixin.parseExprAtom (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+    at FlowParserMixin.parseExprAtom (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+    at FlowParserMixin.parseExprSubscripts (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+    at FlowParserMixin.parseUpdate (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+    at FlowParserMixin.parseMaybeUnary (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+    at FlowParserMixin.parseExprOps (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+    at FlowParserMixin.parseMaybeConditional (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+    at FlowParserMixin.parseMaybeAssign (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+    at FlowParserMixin.parseMaybeAssign (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:3578:18)
+    at FlowParserMixin.parseExpressionBase (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+    at /workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+    at FlowParserMixin.allowInAnd (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+    at FlowParserMixin.parseExpression (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+    at FlowParserMixin.parseReturnStatement (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+    at FlowParserMixin.parseStatementContent (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+    at FlowParserMixin.parseStatementLike (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+    at FlowParserMixin.parseStatementLike (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:2945:24)
+    at FlowParserMixin.parseStatementListItem (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+    at FlowParserMixin.parseBlockBody (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+    at FlowParserMixin.parseBlock (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+    at FlowParserMixin.parseFunctionBody (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+    at FlowParserMixin.parseFunctionBody (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:2922:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12160:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:2930:18)
+    at /workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:13521:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/workspaces/Mobile2026/frontend/node_modules/@babel/parser/lib/index.js:12477:14)
+
+ERROR in [eslint] 
+src/pages/Home.jsx
+  Line 200:8:  Parsing error: Expected corresponding JSX closing tag for <div>. (200:8)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
